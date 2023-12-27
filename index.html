@@ -87,94 +87,88 @@
 
     <link href="style.css" rel="stylesheet" />
   </head>
-  <body class="text-white font-normal text-lg m-0 p-0 overscroll-none">
-    <div class="bg-black flex">
-      <div class="flex md:justify-center w-full h-screen">
-        <nav class="mx-4 mt-2 md:mx-0 md:w-5/6 h-full w-full md:h-fit">
-          <div class="flex flex-col w-full h-full">
-            <div class="flex flex-row w-full justify-between">
-              <h1
-                style="text-align-last: justify"
-                class="font-moniqa-light-condensed-heading tracking-wider line-clamp-1 md:hidden text-5xl uppercase w-[238px] mr-4"
-              >
-                Ferkous Mohamed
-              </h1>
-              <button
-                id="burgerIcon"
-                class="text-white focus:outline-none order-2 m-0 md:hidden"
-              >
-                <svg
-                  id="openNav"
-                  class="w-8 h-8"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                  class="hidden w-8 h-8"
-                  id="closeNav"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.75 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06Z"
-                    clip-rule="evenodd"
-                  />
-                </svg>
-              </button>
-            </div>
-            <ul
-              id="navList"
-              class="mt-4 hidden md:flex text-lg h-full md:justify-center"
+  <body class="text-white font-normal text-lg m-0 p-0 overscroll-none bg-black">
+    <nav class="flex mx-4 mt-2 md:mx-auto md:mt-0 md:w-5/6">
+      <div class="flex flex-col w-full h-full">
+        <div class="flex flex-row w-full justify-between">
+          <h1
+            style="text-align-last: justify"
+            class="font-moniqa-light-condensed-heading tracking-wider line-clamp-1 md:hidden text-5xl uppercase w-[238px] mr-4"
+          >
+            Ferkous Mohamed
+          </h1>
+          <button
+            id="burgerIcon"
+            class="text-white focus:outline-none order-2 m-0 md:hidden"
+          >
+            <svg
+              id="openNav"
+              class="w-8 h-8"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
             >
-              <div
-                class="flex flex-col h-full gap-y-5 md:justify-between md:w-full md:flex-row md:h-fit md:items-center"
-              >
-                <li>Portfolio</li>
-                <li>Services</li>
-                <li
-                  class="font-moniqa-light-condensed-heading hidden md:inline tracking-widest text-5xl lg:text-7xl uppercase"
-                >
-                  <h1>Ferkous Mohamed</h1>
-                </li>
-                <li>About me</li>
-                <li>Contact</li>
-              </div>
-            </ul>
-            <div
-              id="contactList"
-              class="flex flex-col gap-5 text-base hidden md:hidden mb-4"
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="hidden w-8 h-8"
+              id="closeNav"
             >
-              <div>Number: +213-549-989-262</div>
-              <div>E-Mail: rayanfk007@gmail.com</div>
-              <div class="flex flex-row gap-6">
-                <span>Instagram</span>
-                <span>Facebook</span>
-                <span>Youtube</span>
-              </div>
-            </div>
+              <path
+                fill-rule="evenodd"
+                d="M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.75 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06Z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </div>
+        <ul
+          id="navList"
+          class="mt-4 hidden md:flex text-lg h-full md:justify-center"
+        >
+          <div
+            class="flex flex-col h-full gap-y-5 md:justify-between w-full md:flex-row md:items-center"
+          >
+            <li>Portfolio</li>
+            <li>Services</li>
+            <li
+              class="font-moniqa-light-condensed-heading hidden md:inline tracking-widest text-5xl lg:text-7xl uppercase"
+            >
+              <h1>Ferkous Mohamed</h1>
+            </li>
+            <li>About me</li>
+            <li>Contact</li>
           </div>
-        </nav>
-        <main>
-          <section>
-            <div>
-              <img />
-            </div>
-            <div></div>
-          </section>
-        </main>
+        </ul>
+        <div
+          id="contactList"
+          class="flex flex-col gap-5 text-base hidden md:hidden mb-4"
+        >
+          <div>Number: +213-549-989-262</div>
+          <div>E-Mail: rayanfk007@gmail.com</div>
+          <div class="flex flex-row gap-6">
+            <span>Instagram</span>
+            <span>Facebook</span>
+            <span>Youtube</span>
+          </div>
+        </div>
       </div>
-    </div>
+    </nav>
+    <main>
+      <section>
+        <img src="Images/IMG_6750.jpg" width="500" height="700" />
+        <img />
+      </section>
+    </main>
     <script src="script.js"></script>
   </body>
 </html>
