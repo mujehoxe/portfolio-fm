@@ -87,7 +87,9 @@
 
     <link href="style.css" rel="stylesheet" />
   </head>
-  <body class="text-white bg-black font-normal text-lg m-0 p-0 overscroll-none">
+  <body
+    class="text-white bg-black font-normal text-lg lg:text-xl m-0 p-0 overscroll-none"
+  >
     <nav class="flex mx-4 mt-2 md:mx-auto md:mt-0 md:w-5/6">
       <div class="flex flex-col w-full h-full">
         <div class="flex flex-row w-full justify-between">
@@ -163,7 +165,7 @@
         </div>
       </div>
     </nav>
-    <main>
+    <main class="overflow-hidden">
       <section>
         <div class="mx-4 lg:mx-12 xl:mx-20 mt-6">
           <div class="flex flex-col relative">
@@ -332,9 +334,9 @@
               </defs>
             </svg>
           </div>
-          <div class="w-screen mx-auto mt-20 -ml-4">
+          <div class="w-screen mx-auto mt-8 md:mt-16 -ml-4">
             <div
-              class="relative mx-auto mb-4 md:mb-96 w-[320px] h-[336px] md:w-[780px] md:h-[850px]"
+              class="relative mx-auto w-[320px] h-[336px] md:w-[780px] md:h-[850px]"
             >
               <div class="relative w-2/3 h-[84%] z-10 overflow-hidden">
                 <img
@@ -343,7 +345,7 @@
                 />
               </div>
               <div
-                class="relative ml-auto -top-56 mb-40 z-0 w-2/3 h-[84%] overflow-hidden"
+                class="relative ml-auto -top-56 md:-top-[40rem] w-2/3 h-[84%] overflow-hidden"
               >
                 <img
                   class="scale-[1.2] md:scale-[2.7] md:translate-x-40 md:translate-y-56 translate-x-5"
