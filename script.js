@@ -12,7 +12,7 @@ new Swiper(".whatIDoScroller", {
   spaceBetween: 20,
   freeMode: true,
   slidesPerView: "auto",
-  allowSlidePrev: false,
+  slidesOffsetBefore: 80,
 });
 
 new Swiper(".portfolioSwiper", {
@@ -20,6 +20,7 @@ new Swiper(".portfolioSwiper", {
   spaceBetween: 20,
   loop: true,
   freeMode: true,
+  slidesOffsetBefore: 80,
 
   pagination: {
     el: ".swiper-pagination",
