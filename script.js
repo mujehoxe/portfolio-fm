@@ -8,10 +8,10 @@ document.getElementById("burgerIcon").addEventListener("click", function () {
 });
 
 new Swiper(".whatIDoScroller", {
-  loop: true,
-  spaceBetween: 20,
-  freeMode: true,
   slidesPerView: "auto",
+  spaceBetween: 20,
+  loop: true,
+  freeMode: true,
   slidesOffsetBefore: 80,
 });
 
@@ -21,6 +21,10 @@ new Swiper(".portfolioSwiper", {
   loop: true,
   freeMode: true,
   slidesOffsetBefore: 80,
+  autoplay: {
+    delay: 3000, // Adjust the delay (in milliseconds) between slides
+    disableOnInteraction: false, // Set to false to prevent stopping autoplay on user interaction
+  },
 
   pagination: {
     el: ".swiper-pagination",
