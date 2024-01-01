@@ -7,15 +7,30 @@ document.getElementById("burgerIcon").addEventListener("click", function () {
   document.getElementsByTagName("nav")[0].classList.toggle("h-screen");
 });
 
-const swiper = new Swiper(".swiper", {
+new Swiper(".whatIDoScroller", {
   loop: true,
-  spaceBetween: 30,
+  spaceBetween: 20,
   freeMode: true,
   slidesPerView: "auto",
   allowSlidePrev: false,
+});
 
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+new Swiper(".portfolioSwiper", {
+  slidesPerView: "auto",
+  spaceBetween: 20,
+  loop: true,
+  freeMode: true,
+
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    renderBullet: function (index, className) {
+      return (
+        '<span class="bg-gray-50 w-10 h-[2px] rounded-full ' +
+        className +
+        '">' +
+        "</span>"
+      );
+    },
   },
 });
