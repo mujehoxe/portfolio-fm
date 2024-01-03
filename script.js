@@ -29,6 +29,12 @@ document
       });
   });
 
+new Swiper(".tabsSwiper", {
+  slidesPerView: "auto",
+  spaceBetween: 20,
+  freeMode: true,
+});
+
 new Swiper(".whatIDoScroller", {
   slidesPerView: "auto",
   spaceBetween: 20,
