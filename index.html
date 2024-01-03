@@ -95,81 +95,83 @@
   <body
     class="text-gray-50 bg-black text-base md:text-lg lg:text-xl font-light m-0 p-0 overscroll-none"
   >
-    <nav class="flex mx-4 mt-2 md:mx-auto md:mt-0 md:w-5/6">
-      <div class="flex flex-col w-full h-full">
-        <div class="flex flex-row w-full justify-between">
-          <h1
-            style="text-align-last: justify"
-            class="font-moniqa-light-condensed-heading tracking-wider line-clamp-1 md:hidden text-5xl uppercase w-44 mr-4"
-          >
-            Ryan Ferkous
-          </h1>
-          <button
-            id="burgerIcon"
-            class="text-white focus:outline-none order-2 m-0 md:hidden"
-          >
-            <svg
-              id="openNav"
-              class="w-8 h-8"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
+    <header>
+      <nav class="flex mx-4 mt-2 md:mx-auto md:mt-0 md:w-5/6">
+        <div class="flex flex-col w-full h-full">
+          <div class="flex flex-row w-full justify-between">
+            <h1
+              style="text-align-last: justify"
+              class="font-moniqa-light-condensed-heading tracking-wider line-clamp-1 md:hidden text-5xl uppercase w-44 mr-4"
             >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25"
-              />
-            </svg>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              fill="currentColor"
-              class="hidden w-8 h-8"
-              id="closeNav"
+              Ryan Ferkous
+            </h1>
+            <button
+              id="burgerIcon"
+              class="focus:outline-none order-2 m-0 md:hidden"
             >
-              <path
-                fill-rule="evenodd"
-                d="M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.75 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06Z"
-                clip-rule="evenodd"
-              />
-            </svg>
-          </button>
-        </div>
-        <ul
-          id="navList"
-          class="mt-4 hidden md:flex text-lg h-full md:justify-center"
-        >
-          <div
-            class="flex flex-col h-full gap-y-5 md:justify-between w-full md:flex-row md:items-center"
-          >
-            <li>Portfolio</li>
-            <li>Services</li>
-            <li
-              class="font-moniqa-light-condensed-heading hidden md:inline tracking-widest text-6xl lg:text-7xl uppercase"
-            >
-              <h1>Ryan Ferkous</h1>
-            </li>
-            <li>About me</li>
-            <li>Contact</li>
+              <svg
+                id="openNav"
+                class="w-8 h-8"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="hidden w-8 h-8"
+                id="closeNav"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.75 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </button>
           </div>
-        </ul>
-        <div
-          id="contactList"
-          class="flex flex-col gap-5 text-base hidden md:hidden mb-4"
-        >
-          <div>Phone: +213-549-989-262</div>
-          <div>E-Mail: rayanfk007@gmail.com</div>
-          <ul class="flex flex-row gap-6">
-            <li>Instagram</li>
-            <li>Facebook</li>
-            <li>Youtube</li>
+          <ul
+            id="navList"
+            class="mt-4 hidden md:flex text-lg h-full md:justify-center"
+          >
+            <div
+              class="flex flex-col h-full gap-y-5 md:justify-between w-full md:flex-row md:items-center"
+            >
+              <li>Portfolio</li>
+              <li>Services</li>
+              <li
+                class="font-moniqa-light-condensed-heading hidden md:inline tracking-widest text-6xl lg:text-7xl uppercase"
+              >
+                <h1>Ryan Ferkous</h1>
+              </li>
+              <li>About me</li>
+              <li>Contact</li>
+            </div>
           </ul>
+          <div
+            id="contactList"
+            class="flex flex-col gap-5 text-base hidden md:hidden mb-4"
+          >
+            <div>Phone: +213-549-989-262</div>
+            <div>E-Mail: rayanfk007@gmail.com</div>
+            <ul class="flex flex-row gap-6">
+              <li>Instagram</li>
+              <li>Facebook</li>
+              <li>Youtube</li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </header>
     <main class="overflow-hidden">
       <section>
         <div class="mx-4 lg:mx-12 xl:mx-20 mt-6">
@@ -274,7 +276,7 @@
           </ul>
         </div>
       </section>
-      <section class="bg-white bg-opacity-15">
+      <section class="bg-gray-50 bg-opacity-15">
         <div class="flex flex-col mx-4 lg:mx-12 xl:mx-20">
           <hr
             class="flex justify-end mt-12 -mr-4 opacity-80 ml-auto w-32 right-0 lg:-mr-12 xl:-mr-20"
@@ -482,7 +484,7 @@
           </div>
         </div>
       </section>
-      <section class="bg-white bg-opacity-15">
+      <section class="bg-gray-50 bg-opacity-15">
         <div class="mt-4 h-2"></div>
         <div class="mx-4 mt-6">
           <hr class="mt-10 w-24 ml-auto -mr-4 opacity-80" />
@@ -662,6 +664,62 @@
         </div>
       </section>
     </main>
+    <footer class="flex bg-gray-50 mt-20 bg-opacity-15">
+      <div class="relative flex flex-col w-full gap-8 mx-4 lg:mx-12 mt-6 mb-6">
+        <h1
+          style="text-align-last: justify"
+          class="font-moniqa-light-condensed-heading tracking-wider line-clamp-1 text-5xl md:text-6xl lg:text-7xl uppercase w-44 md:w-56 lg:w-[17rem] mr-4"
+        >
+          Ryan Ferkous
+        </h1>
+        <div class="flex flex-col gap-6 md:flex-row w-full">
+          <ul class="flex flex-row items-center gap-4">
+            <div class="flex flex-col gap-4">
+              <li class="w-32">Portfolio</li>
+              <li>About me</li>
+            </div>
+            <div class="flex flex-col gap-4">
+              <li>Services</li>
+              <li>Contact</li>
+            </div>
+          </ul>
+          <div class="md:m-auto w-max">
+            <div class="flex flex-col gap-4">
+              <div>Phone: +213-549-989-262</div>
+              <div>E-Mail: rayanfk007@gmail.com</div>
+            </div>
+            <ul class="mt-4 flex flex-row w-full justify-between">
+              <li>Instagram</li>
+              <li>Facebook</li>
+              <li>Youtube</li>
+            </ul>
+          </div>
+          <div class="hidden md:inline cursor-pointer right-0">
+            <svg
+              width="25"
+              height="124"
+              viewBox="0 0 25 124"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M17.5283 122.922L17.5283 1.03424L24.0002 7.50615"
+                stroke="white"
+                stroke-width="0.539326"
+              />
+              <path
+                d="M10 123.145H2.93973V120.677C2.93973 120.185 3.02477 119.779 3.19484 119.46C3.36261 119.14 3.58899 118.902 3.87398 118.746C4.15666 118.59 4.47038 118.512 4.81512 118.512C5.11849 118.512 5.369 118.566 5.56665 118.674C5.7643 118.779 5.92058 118.92 6.0355 119.094C6.15041 119.267 6.23544 119.454 6.2906 119.656H6.35955C6.37334 119.44 6.44918 119.223 6.58708 119.005C6.72497 118.786 6.92262 118.604 7.18003 118.457C7.43744 118.309 7.7523 118.236 8.12462 118.236C8.47855 118.236 8.79686 118.316 9.07955 118.477C9.36223 118.638 9.58631 118.892 9.75179 119.239C9.91726 119.586 10 120.038 10 120.594V123.145ZM9.24157 122.29V120.594C9.24157 120.035 9.13355 119.639 8.91752 119.405C8.69918 119.168 8.43488 119.05 8.12462 119.05C7.8856 119.05 7.66496 119.11 7.46272 119.232C7.25817 119.354 7.09499 119.528 6.97319 119.753C6.84908 119.978 6.78703 120.245 6.78703 120.553V122.29H9.24157ZM6.04239 122.29V120.704C6.04239 120.447 5.99183 120.215 5.8907 120.008C5.78958 119.799 5.64709 119.633 5.46323 119.511C5.27937 119.387 5.06333 119.325 4.81512 119.325C4.50485 119.325 4.2417 119.433 4.02566 119.649C3.80733 119.865 3.69816 120.208 3.69816 120.677V122.29H6.04239ZM10 110.668V111.565L2.93973 108.972V108.09L10 105.497V106.394L4.05669 108.503V108.558L10 110.668ZM7.24208 110.337V106.724H8.00051L8.00051 110.337H7.24208ZM5.14607 93.1747V94.0297C4.90015 94.0803 4.68412 94.1687 4.49796 94.2951C4.3118 94.4192 4.15552 94.5709 4.02911 94.7502C3.90041 94.9272 3.80388 95.1237 3.73953 95.3397C3.67518 95.5557 3.643 95.781 3.643 96.0154C3.643 96.4429 3.75102 96.8301 3.96706 97.1772C4.18309 97.5219 4.5014 97.7965 4.92199 98.0011C5.34257 98.2033 5.85853 98.3045 6.46987 98.3045C7.0812 98.3045 7.59717 98.2033 8.01775 98.0011C8.43833 97.7965 8.75664 97.5219 8.97268 97.1772C9.18871 96.8301 9.29673 96.4429 9.29673 96.0154C9.29673 95.781 9.26456 95.5557 9.2002 95.3397C9.13585 95.1237 9.04047 94.9272 8.91407 94.7502C8.78537 94.5709 8.62794 94.4192 8.44178 94.2951C8.25332 94.1687 8.03728 94.0803 7.79367 94.0297V93.1747C8.15449 93.2391 8.4774 93.3563 8.76239 93.5264C9.04737 93.6964 9.28984 93.9079 9.48979 94.1607C9.68744 94.4135 9.83797 94.6973 9.94139 95.0122C10.0448 95.3248 10.0965 95.6592 10.0965 96.0154C10.0965 96.6175 9.94944 97.153 9.65526 97.6219C9.36108 98.0907 8.9428 98.4596 8.40041 98.7285C7.85802 98.9974 7.2145 99.1318 6.46987 99.1318C5.72523 99.1318 5.08172 98.9974 4.53933 98.7285C3.99694 98.4596 3.57865 98.0907 3.28447 97.6219C2.9903 97.153 2.84321 96.6175 2.84321 96.0154C2.84321 95.6592 2.89492 95.3248 2.99834 95.0122C3.10176 94.6973 3.25345 94.4135 3.4534 94.1607C3.65105 93.9079 3.89236 93.6964 4.17735 93.5264C4.46004 93.3563 4.78294 93.2391 5.14607 93.1747ZM10 85.9199H2.93973V85.065H6.44229V84.9822L2.93973 81.8106V80.6937L6.12513 83.6584L10 80.6937V81.7279L6.71808 84.1824L7.71093 85.065H10V85.9199ZM3.69816 65.4963H2.93973L2.93973 60.2011H3.69816L3.69816 62.4212H10V63.2762H3.69816V65.4963ZM6.46987 47.3452C7.2145 47.3452 7.85802 47.4796 8.40041 47.7485C8.9428 48.0174 9.36108 48.3863 9.65526 48.8551C9.94944 49.324 10.0965 49.8595 10.0965 50.4616C10.0965 51.0638 9.94944 51.5993 9.65526 52.0681C9.36108 52.5369 8.9428 52.9058 8.40041 53.1747C7.85802 53.4436 7.2145 53.5781 6.46987 53.5781C5.72523 53.5781 5.08172 53.4436 4.53933 53.1747C3.99694 52.9058 3.57865 52.5369 3.28447 52.0681C2.9903 51.5993 2.84321 51.0638 2.84321 50.4616C2.84321 49.8595 2.9903 49.324 3.28447 48.8551C3.57865 48.3863 3.99694 48.0174 4.53933 47.7485C5.08172 47.4796 5.72523 47.3452 6.46987 47.3452ZM6.46987 48.1725C5.85853 48.1725 5.34257 48.2748 4.92199 48.4794C4.5014 48.6816 4.18309 48.9562 3.96706 49.3033C3.75102 49.648 3.643 50.0341 3.643 50.4616C3.643 50.8891 3.75102 51.2763 3.96706 51.6234C4.18309 51.9681 4.5014 52.2428 4.92199 52.4473C5.34257 52.6496 5.85853 52.7507 6.46987 52.7507C7.0812 52.7507 7.59717 52.6496 8.01775 52.4473C8.43833 52.2428 8.75664 51.9681 8.97268 51.6234C9.18871 51.2763 9.29673 50.8891 9.29673 50.4616C9.29673 50.0341 9.18871 49.648 8.97268 49.3033C8.75664 48.9562 8.43833 48.6816 8.01775 48.4794C7.59717 48.2748 7.0812 48.1725 6.46987 48.1725ZM3.69816 31.8169H2.93973V26.5217H3.69816V28.7418H10V29.5967H3.69816V31.8169ZM6.46987 13.6657C7.2145 13.6657 7.85802 13.8001 8.40041 14.069C8.9428 14.3379 9.36108 14.7068 9.65526 15.1757C9.94944 15.6445 10.0965 16.18 10.0965 16.7821C10.0965 17.3843 9.94944 17.9198 9.65526 18.3886C9.36108 18.8575 8.9428 19.2263 8.40041 19.4952C7.85802 19.7641 7.2145 19.8986 6.46987 19.8986C5.72523 19.8986 5.08172 19.7641 4.53933 19.4952C3.99694 19.2263 3.57865 18.8575 3.28447 18.3886C2.9903 17.9198 2.84321 17.3843 2.84321 16.7821C2.84321 16.18 2.9903 15.6445 3.28447 15.1757C3.57865 14.7068 3.99694 14.3379 4.53933 14.069C5.08172 13.8001 5.72523 13.6657 6.46987 13.6657ZM6.46987 14.4931C5.85853 14.4931 5.34257 14.5953 4.92199 14.7999C4.5014 15.0021 4.18309 15.2768 3.96706 15.6238C3.75102 15.9686 3.643 16.3547 3.643 16.7821C3.643 17.2096 3.75102 17.5969 3.96706 17.9439C4.18309 18.2886 4.5014 18.5633 4.92199 18.7678C5.34257 18.9701 5.85853 19.0712 6.46987 19.0712C7.0812 19.0712 7.59717 18.9701 8.01775 18.7678C8.43833 18.5633 8.75664 18.2886 8.97268 17.9439C9.18871 17.5969 9.29673 17.2096 9.29673 16.7821C9.29673 16.3547 9.18871 15.9686 8.97268 15.6238C8.75664 15.2768 8.43833 15.0021 8.01775 14.7999C7.59717 14.5953 7.0812 14.4931 6.46987 14.4931ZM10 6.35487H2.93973L2.93973 3.96927C2.93973 3.41539 3.03971 2.96263 3.23966 2.611C3.43731 2.25707 3.70506 1.99506 4.0429 1.82499C4.38075 1.65492 4.75766 1.56988 5.17365 1.56988C5.58963 1.56988 5.9677 1.65492 6.30784 1.82499C6.64798 1.99276 6.91918 2.25247 7.12142 2.6041C7.32137 2.95574 7.42135 3.4062 7.42135 3.95548V5.66539H6.66292V3.98306C6.66292 3.60385 6.59742 3.29933 6.46642 3.0695C6.33542 2.83968 6.15845 2.67305 5.93552 2.56963C5.71029 2.46391 5.45633 2.41105 5.17365 2.41105C4.89096 2.41105 4.63815 2.46391 4.41522 2.56963C4.19229 2.67305 4.01762 2.84082 3.89122 3.07295C3.76251 3.30507 3.69816 3.61304 3.69816 3.99685L3.69816 5.49992H10V6.35487Z"
+                fill="white"
+              />
+            </svg>
+          </div>
+        </div>
+
+        <hr class="-ml-4 -mr-4 lg:-ml-12 lg:-mr-12 opacity-80" />
+
+        <div class="">© Amelia Allen 2022 | All Rights Reserved</div>
+      </div>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>
